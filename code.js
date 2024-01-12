@@ -2,6 +2,7 @@ class LinkedList {
   constructor() {
     this.head = null;
   }
+
   // add to end of list
   append(value) {
     let node = new Node(value);
@@ -166,8 +167,6 @@ ll.prepend(100);
 ll.prepend(200);
 ll.prepend(300);
 ll.append(400);
-
-ll.pop();
 
 ll.printValues();
 
